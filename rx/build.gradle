@@ -36,15 +36,15 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    //SwipeBackActivity
-    implementation 'me.imid.swipebacklayout.lib:library:1.1.0'
-    //SwipeBackActivity
-    implementation 'com.github.jdsjlzx:LRecyclerView:1.5.1'
-    implementation 'com.github.fodroid:XRadioGroup:v1.5'
-
-    implementation 'com.github.pdog18:dimension-extensions:1.0'
-//    implementation 'com.contrarywind:Android-PickerView:4.1.7'
+//    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+//    //SwipeBackActivity
+//    implementation 'me.imid.swipebacklayout.lib:library:1.1.0'
+//    //SwipeBackActivity
+//    implementation 'com.github.jdsjlzx:LRecyclerView:1.5.1'
+//    implementation 'com.github.fodroid:XRadioGroup:v1.5'
+//
+//    implementation 'com.github.pdog18:dimension-extensions:1.0'
+////    implementation 'com.contrarywind:Android-PickerView:4.1.7'
 
     //okhttp
 //    implementation 'com.squareup.okhttp3:okhttp:3.12.0'
