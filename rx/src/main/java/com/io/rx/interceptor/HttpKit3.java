@@ -13,8 +13,8 @@ import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class HttpKit {
-    private static HttpKit mInstance;
+public class HttpKit3 {
+    private static HttpKit3 mInstance;
     private static String USER_AGENT;
     private static String ACCESS_TOKEN;
     public static String HOST_ADDRESS;
@@ -23,12 +23,12 @@ public class HttpKit {
     private static OkHttpClient client;
     private static Retrofit retrofit;
 
-    private HttpKit(Context context) {
-        HttpKit.context = context;
+    private HttpKit3(Context context) {
+        HttpKit3.context = context;
     }
 
     public static void init(Context context, String host) {
-        if (mInstance == null) mInstance = new HttpKit(context);
+        if (mInstance == null) mInstance = new HttpKit3(context);
         client = new OkHttpClient.Builder()
                 .addInterceptor(new HttpLoggerInterceptor("TAG"))
                 .connectTimeout(15, TimeUnit.SECONDS)
