@@ -1,4 +1,4 @@
-package com.myku
+package com.io.rx
 
 import android.util.Log
 import com.google.gson.Gson

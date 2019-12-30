@@ -5,7 +5,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
-import com.myku.Load;
+import com.io.rx.Load;
 
 import java.util.concurrent.TimeUnit;
 

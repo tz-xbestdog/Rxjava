@@ -1,4 +1,4 @@
-package com.myku.util.util
+package com.io.rx.util.util
 
 import android.annotation.TargetApi
 import android.app.Activity
@@ -10,7 +10,6 @@ import android.view.ViewGroup
 import android.view.WindowManager
 import androidx.core.content.ContextCompat
 import com.io.rx.R
-import com.io.rx.util.util.RomUtil
 
 object StateBarTranslucentUtils {
     fun setStateBarTranslucent(activity: Activity) {

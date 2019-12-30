@@ -1,4 +1,4 @@
-package com.myku.util.util
+package com.io.rx.util.util
 
 import android.app.AppOpsManager
 import android.content.Context
