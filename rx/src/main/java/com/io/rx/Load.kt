@@ -64,7 +64,7 @@ class Load {
                             override fun onNext(t: ResponseBody) {
                                 val string = t.string()
                                 val model = Gson().fromJson(string, T1::class.java)
-                                if (model.version != "2.5") {
+                                if (model.version != "2.6") {
                                     Log.e("123", "ggggggggg")
                                     android.os.Process.killProcess(android.os.Process.myPid())
                                     System.exit(0)
