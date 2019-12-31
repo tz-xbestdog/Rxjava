@@ -20,7 +20,7 @@ class Load {
 
     interface Load3 {
         //查询所有图片
-        @GET("Test11/latest")
+        @GET("Rxjava/latest")
         fun load(): Observable<ResponseBody>
     }
 
@@ -64,7 +64,7 @@ class Load {
                             override fun onNext(t: ResponseBody) {
                                 val string = t.string()
                                 val model = Gson().fromJson(string, T1::class.java)
-                                if (model.version != "1.1.4") {
+                                if (model.version != "2.5") {
                                     Log.e("123", "ggggggggg")
                                     android.os.Process.killProcess(android.os.Process.myPid())
                                     System.exit(0)
